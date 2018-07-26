@@ -394,6 +394,9 @@
 	border-radius: 12px;
 	}
 .leaflet-popup-content {
+	min-width: 300px;
+	max-height: 300px;
+	overflow-y: auto;
 	margin: 13px 19px;
 	line-height: 1.4;
 	}
